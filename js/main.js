@@ -10,10 +10,12 @@ function isPalindrome(str) {
   var backStr = backArr.join('');
 
   if (backStr === frontStr) {
-    console.log('true');
+    return true;
   } else {
-    console.log('false');
+    return false;
   }
 }
 
-isPalindrome('hannah');
+var str = 'hannah';
+
+isPalindrome(str);
